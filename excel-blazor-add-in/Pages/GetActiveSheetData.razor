@@ -1,0 +1,18 @@
+﻿@* Copyright (c) Maarten van Stam. All rights reserved. Licensed under the MIT License. *@
+@page "/activesheetdata"
+
+<PageTitle>Get Sheet Data</PageTitle>
+
+<div class="row">
+	<h1>
+		Call Office JavaScript API
+	</h1>
+	<p>
+		Get Active Cell Formula and Active Sheet Values' using JavaScript interop between Blazor and the Office JavaScript API.
+	</p>
+	<div class="col-md-6">
+		<button type="button" class="btn btn-primary" @onclick="RetrieveActiveSheetData">Get Sheet Data</button>
+		<p>@ExcelData</p>
+	</div>
+	
+</div>
